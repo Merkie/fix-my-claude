@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-blueviolet)](https://claude.ai)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 [![67](https://img.shields.io/badge/6-7-blue)](https://www.youtube.com/watch?v=v0NDDoNRtQ8)
 
 A Claude Code tool that audits and fixes repositories with bloated CLAUDE.md files or messy Claude configurations.
