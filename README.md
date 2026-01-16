@@ -17,30 +17,32 @@ Common issues this tool fixes:
 
 Clone this repository and use the commands from within Claude Code.
 
+Run `/help` to get started.
+
 ## Usage
 
 ```bash
 # Quick health check (read-only)
-/project:audit /path/to/repo
+/audit /path/to/repo
 
 # Fix with simple setup (default - recommended for most projects)
-/project:fix /path/to/repo
+/fix /path/to/repo
 
 # Fix with full subagentic architecture
-/project:fix /path/to/repo --complex
+/fix /path/to/repo --complex
 
 # Convert between setup types
-/project:migrate /path/to/repo --to-simple
-/project:migrate /path/to/repo --to-complex
+/migrate /path/to/repo --to-simple
+/migrate /path/to/repo --to-complex
 ```
 
 ## Commands
 
 | Command | Purpose |
 |---------|---------|
-| `/project:audit <path>` | Read-only health check |
-| `/project:fix <path> [--simple\|--complex]` | Main fixer |
-| `/project:migrate <path> <--to-simple\|--to-complex>` | Convert setup type |
+| `/audit <path>` | Read-only health check |
+| `/fix <path> [--simple\|--complex]` | Main fixer |
+| `/migrate <path> <--to-simple\|--to-complex>` | Convert setup type |
 
 ## Simple vs Complex
 

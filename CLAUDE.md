@@ -6,26 +6,26 @@ Audits and fixes repos with bloated CLAUDE.md files or messy Claude Code configu
 
 ```bash
 # Quick health check (read-only)
-/project:audit /path/to/repo
+/audit /path/to/repo
 
 # Fix with simple setup (default - recommended for most projects)
-/project:fix /path/to/repo
+/fix /path/to/repo
 
 # Fix with full subagentic architecture
-/project:fix /path/to/repo --complex
+/fix /path/to/repo --complex
 
 # Convert between setup types
-/project:migrate /path/to/repo --to-simple
-/project:migrate /path/to/repo --to-complex
+/migrate /path/to/repo --to-simple
+/migrate /path/to/repo --to-complex
 ```
 
 ## Commands
 
 | Command | Purpose |
 |---------|---------|
-| `/project:fix <path> [--simple\|--complex]` | Main fixer |
-| `/project:audit <path>` | Read-only health check |
-| `/project:migrate <path> <--to-simple\|--to-complex>` | Convert setup type |
+| `/fix <path> [--simple\|--complex]` | Main fixer |
+| `/audit <path>` | Read-only health check |
+| `/migrate <path> <--to-simple\|--to-complex>` | Convert setup type |
 
 ## Subagents
 
